@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola - Home</title>
+</head>
+
+<!-- BootStrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+
+<!-- Main CSS-->
+<link rel="stylesheet" href="../Coke/css/style.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar.fixed-top').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+    });
+    // DOMContentLoaded  end
+</script>
+
+
+<body>
+    
+    <!-----------------  Barra de Navegação ----------------- -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="../Coke/img/ico.png" width="60" height="60" alt="..."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+          <span><i class="bi bi-list"></i></span>
+        </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link" href="#"> Ofertas </a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dê o Play </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a class="dropdown-item" href="#"> Promoção "Dê o Play"</a></li>
+                            <li><a class="dropdown-item" href="#"> Sobre </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Retornáveis </a>
+                        <ul class="dropdown-menu dropdown-menu-left">
+                            <li><a class="dropdown-item" href="#"> Sobre</a></li>
+                            <li><a class="dropdown-item" href="#"> Garrafa Virtual </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">  Loja </a></li>
+                </ul>
+                <!-- navbar-collapse.// -->
+            </div>
+            <!-- container-fluid.// -->
+    </nav>
+
+      
+    <!-----------------  Carousel Inicial ----------------- -->
+    <div id="Maincarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Coke/img/coke-1.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../Coke/img/coke-2.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../Coke/img/coke-3.jpg" class="d-block" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Maincarousel" data-bs-slide="prev">
+          <span class="bi bi-chevron-double-left" aria-hidden="true" style="font-size: 4rem;"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Maincarousel" data-bs-slide="next">
+          <span class="bi bi-chevron-double-right" aria-hidden="true" style="font-size: 4rem;"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-----------------  Ofertas do Dia----------------- -->
+    <div class="ShowOffers container-fluid p-0">
+        <div class="row p-0 m-0">
+            <div class="col-md-7 p-4">
+                <div id="ShowOfferscarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card m-auto p-2">
+                                <img src="../Coke/img/pepperrock-coca-cola-sem-acucar-600ml.jpg" class="card-img-top " alt="Responsive image">
+                                <div class="card-offers card-body m-auto">
+                                    <h1><strong class="CouponCard-module__title--2pxKS" title="Pizza média + refri 600ml a partir de R$39,90">
+                                        Pizza média + refri 600ml a partir de R$39,90</strong></h1>
+                                    <p datetime="2021-12-31 23:59:59" title="31 de Dezembro de 2021 às 23:59">Oferta válida até 31 dez 2021</p>
+                                    <a href="#" class="btn btn-light">Ver Mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card m-auto p-2">
+                                <img src="../Coke/img/portuguesa-coca-cola-sem-acucar 2l.jpg" class="card-img-top" alt="Responsive image">
+                                <div class="card-offers card-body m-auto">
+                                    <h1><strong class="CouponCard-module__title--2pxKS" title="Pizza média + refri 600ml a partir de R$39,90">Pizza média + refri 600ml a partir de R$39,90</strong></h1>
+                                    <p datetime="2021-12-31 23:59:59" title="31 de Dezembro de 2021 às 23:59">Oferta válida até 31 dez 2021</p>
+                                    <a href="#" class="btn btn-light">Ver Mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card m-auto p-2">
+                                <img src="../Coke/img/extravaganza-coca-cola-sem-acucar-2l.jpg" class="card-img-top" alt="Responsive image">
+                                <div class="card-offers card-body m-auto">
+                                    <h1><strong class="CouponCard-module__title--2pxKS" title="Pizza média + refri 600ml a partir de R$39,90">Pizza média + refri 600ml a partir de R$39,90</strong></h1>
+                                    <p datetime="2021-12-31 23:59:59" title="31 de Dezembro de 2021 às 23:59">Oferta válida até 31 dez 2021</p>
+                                    <a href="#" class="btn btn-light">Ver Mais!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ShowOfferscarousel" data-bs-slide="prev">
+                            <span aria-hidden="true"><img src="../Coke/img/ico-arrow-left.png" width="50"></span>
+                          </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ShowOfferscarousel" data-bs-slide="next">
+                        <span  aria-hidden="true"><img src="../Coke/img/ico-arrow-right.png" width="50"></span>
+                          </button>
+
+                </div>
+            </div>
+            <!--  Todas as Ofertas -->
+            <div class="all-offers col-md-5 text-light ">
+                <h2>Ofertas</h2>
+                <p>Cupons e benefícios exclusivos da Coca-Cola para você!</p>
+                <a href="#" class="btn btn-dark">Ver Todas Ofertas</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------  Coca Zero ----------------- -->
+    <div class="ZeroCoke container-fluid text-center text-light">
+        <div>
+            <h1>SEM AÇÚCAR</h1>
+            <h2>Compre Coca-Cola sem açúcar</h2>
+            <p>Deliciosa! Refrescante. Prova aí!</p>
+            <button type="button" class="btn btn-outline-dark">Saiba Mais</button>
+            <div class="HomeNoSugar-module__imageContainer--2s86b LazyImage-module__container--19heP" data-test="LazyImage">
+                <div>
+                    <img alt="Imagem parcial de lata Coca-Cola Sem Açúcar" src="https://www.coca-cola.com.br/assets/images/home/no-sugar/desktop/414w/no-sugar-banner.png?v=42bae32103498a3aa75f74b06bfdf4e9" srcset="https://www.coca-cola.com.br/assets/images/home/no-sugar/desktop/414w/no-sugar-banner.png?v=42bae32103498a3aa75f74b06bfdf4e9 414w,https://www.coca-cola.com.br/assets/images/home/no-sugar/desktop/603w/no-sugar-banner.png?v=37798daff37c67c00e55cc5b0a4cd41b 603w"
+                        class="img-fluid" width="600" height="300"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------  Ofertas Regionais----------------- -->
+    <div class="RegionalOffers container-fluid p-0">
+        <div class="row m-0">
+            <div class="col-md-6">
+                <h1>PROMOÇÃO</h1>
+                <p>Confira as promoções que estão rolando na sua região</p>
+                <button type="button" class="btn btn-dark">Buscar por localização </button>
+            </div>
+            <div class="col-md-6 p-0">
+                <img class="img-fluid" src="../Coke/img/campaign.png"> </div>
+        </div>
+    </div>
+
+    <!-----------------  Garrafa Virtual ----------------- -->
+    <div class="VirtualBottle container-fluid p-1">
+        <div class="row m-0">
+            <div class="col-md-6">
+                <h1>GARRAFA VIRTUAL</h1>
+                <p>Esqueceu sua garrafa retornável em casa?<br> Não se preocupe! Baixe aqui o cupom da Garrafa Virtual e pague somente o líquido Resgatar Garrafas!</p>
+                <button type="button" class="btn btn-dark">Resgatar Garrafas! </button>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <img class="img-fluid w-75 mx-auto " src="../Coke/img/Bottle.jpg"> </div>
+        </div>
+    </div>
+
+
+    <!-----------------  Beneficios Exclusivos ----------------- -->
+    <section class="">
+        <div class="BenefRegister container-fluid p-0 m-0">
+            <div class="row m-0">
+                <div class="col-md-6">
+                    <h1>Cadastre-se para receber benefícios exclusivos!</h1>
+                    <button type="button" class="btn btn-light">Quero Fazer Parte! </button>
+                </div>
+                <div class="col-md-6 p-0">
+                    <img class="img-fluid" src="../Coke/img/register_section_bottles.jpg"> </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------  Marcas ----------------- -->
+    <section class="">
+        <div class="container-fluid ">
+            <div id="BrandsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                <div class="carousel-inner">
+                    <!-- Slide-1 -->
+                    <div class="carousel-item active ">
+                        <div class="d-flex justify-content-center">
+                            <img src="../Coke/img/marca_coca_logo.png" width="18%" class="img-fluid d-block" alt="...">
+                            <img src="../Coke/img/marca_logo-fanta.png" width="18%" class="img-fluid d-block" alt="...">
+                            <img src="../Coke/img/marca_logo-sprite.png" width="18%" class="img-fluid d-block" alt="...">
+                            <img src="../Coke/img/marca_logo-schweppes.png" width="18%" class="img-fluid d-block" alt="...">
+                        </div>
+                    </div>
+                    <!-- Slide-2 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img src="../Coke/img/marca_logo-del-valle.png" width="18%" class="img-fluid d-block" alt="...">
+                            <img src="../Coke/img/marca_logo-verde-campo.png " width="18% " class="img-fluid d-block " alt="... ">
+                            <img src="../Coke/img/marca_logo-leao.png" width="18%" class="img-fluid d-block" alt="...">
+                            <img src="../Coke/img/marca_logo-ades.png " width="18% " class="img-fluid d-block " alt="... ">
+                        </div>
+                    </div>
+                    <!-- Slide-3 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img src="../Coke/img/marca_logo-crystal.png" width="18%" class="img-fluid d-block" alt="...">
+                            <img src="../Coke/img/marca_logo-crystal-sparkling.png " width="18% " class="img-fluid d-block " alt="... " ">
+                            <img src="../Coke/img/marca_logo-powerade.png " width="18% " class="img-fluid d-block " alt="... " >
+                            <img src="../Coke/img/marca_logo-i9.png " width="18% " class="img-fluid d-block " alt="... ">
+                            <img src="../Coke/img/marca_logo-kuat-guaranas-regionais.png " width="18% " class="img-fluid d-block " alt="... " ">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button " data-bs-target="#BrandsCarousel " data-bs-slide="prev ">
+                  <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                  <span class="visually-hidden ">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button " data-bs-target="#BrandsCarousel " data-bs-slide="next ">
+                  <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                  <span class="visually-hidden ">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-----------------  Footer ----------------- -->
+        <section class=" ">
+            <footer class="text-center text-lg-start text-light ">
+
+                <!-- Compania -->
+                <div class="container-fluid ">
+                    <div class="row ">
+                        <h1><img class="img-fluid mb-4 " src="../Coke/img/logo.svg " width="150 "></h1>
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                            <h1 class="footer-tittle ">Contato</h1>
+                            <div class="Footer-module__contentContact--3pcD_ ">
+                                <p class="Footer-module__text--1BGHD ">
+                                    </i>Fale com a gente:<br>
+                                    <a class=" text-light" href="tel:+552140022121 "><i class="bi bi-telephone-fill me-2"></i>4002-2121</a></p>
+                            </div>
+                            <div class="Footer-module__contentContact--3pcD_ ">
+                                <p class="Footer-module__text--1BGHD ">Segunda à Sexta-feira<br> 09h às 18h</p>
+                            </div>
+                        </div>
+
+                        <!-- Navegue por Aqui -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                            <h1 class="footer-tittle text-uppercase fw-bold mb-4 ">Navegue por aqui</h1>
+                            <ul>
+                                <li><a text="Ofertas " data-test="ButtonOfferFooter " href="/ofertas ">Ofertas</a></li>
+                                <li><a text="Ofertas " data-test="ButtonOfferFooter " href="/ofertas ">Garrafa Virtual</a></li>
+                                <li><a text="Ofertas " data-test="ButtonOfferFooter " href="/ofertas ">Retornáveis</a></li>
+                                <li><a text="Ofertas " data-test="ButtonOfferFooter " href="/ofertas ">Perguntas Frequentes</a></li>
+                                <li><a text="Ofertas " data-test="ButtonOfferFooter " href="/ofertas ">Dê o play</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Institucional -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                            <h1 class="footer-tittle text-uppercase fw-bold mb-4 ">Institucional</h1>
+                            <ul>
+                                <li><a class="text-decoration-none" text="Ofertas " data-test="ButtonOfferFooter " href="/ofertas ">Coca-Cola Brasil</a></li>
+                                <li><a text="Fale conosco " data-test="ButtonOfferFooter " href="/ofertas ">Fale conosco</a></li>
+                                <li><a text="Trabalhe conosco " data-test="ButtonOfferFooter " href="/ofertas ">Trabalhe conosco</a></li>
+                                <li><a text="Termos de uso " data-test="ButtonOfferFooter " href="/ofertas ">Termos de uso</a></li>
+                                <li><a text="Privacidade " data-test="ButtonOfferFooter " href="/ofertas ">Privacidade</a></li>
+                                <li><a text="Investidores " data-test="ButtonOfferFooter " href="/ofertas ">Investidores</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Social Media -->
+                        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4 ">
+                            <h1 class="footer-tittle text-uppercase fw-bold mb-4 ">Midias Sociais </h1>
+                            <div class="social-content d-flex ">
+                                <a href="https://www.facebook.com/cocacolabr/ " class="text-reset " target="_blank "><i class="bi bi-facebook "></i></a>
+                                <a href="https://twitter.com/cocacola_br/ " class="text-reset " target="_blank "><i class="bi bi-twitter "></i> </a>
+                                <a href="https://www.instagram.com/cocacola_br/ " class="text-reset " target="_blank "><i class="bi bi-instagram "></i></a>
+                                <a href="https://www.youtube.com/cocacola " class="text-reset " target="_blank "><i class="bi bi-youtube "></i></i> </a>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <!-- Section: Links  -->
+        <div class="text-center p-4 bg-dark text-light " style="background-color: rgba(0, 0, 0, 0.05); ">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold " target="_blank " href="https://www.instagram.com/pedroantonio_si/ ">Pedro Antonio SI</a>
+        </div>
+        </footer>
+    </section>
+    <script>
+        const nav = document.getElementById('nav');
+            window.addEventListener("scroll", () => {
+            if(window.pageYOffset>100){
+
+                nav.style.background = "#000000";
+
+            }
+            else{
+                nav.style.background = "transparent";
+            }
+        });
+
+ 
+    </script>
+</body>
+
+</html>
