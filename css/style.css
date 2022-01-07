@@ -1,0 +1,390 @@
+body {
+    margin-top: -6em;
+    font-family: 'Outfit', sans-serif;
+}
+
+#nav{
+    transition: 0.3s linear;
+}
+
+.navbar {
+    background-color: transparent
+}
+
+.navbar-brand {
+    margin-left: 1em;
+    margin-right: 3em;
+}
+
+.navbar-toggler {
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus-within {
+    border: none;
+    box-shadow: none;
+}
+
+.bi.bi-list {
+    color: #ffffff!important;
+    font-size: 2.5rem;
+}
+
+.navbar-collapse ul li {
+    margin: 0.2em;
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    transition: 0.1s all;
+}
+
+.nav-link {
+    color: white!important;
+}
+
+.nav-link:hover {
+    color: #e6e6e6!important;
+}
+
+.nav-item:nth-of-type(2) *:focus ,.nav-item:nth-of-type(3) *:focus {
+    color: red!important;
+
+}
+
+/* Carousel Interval */
+#Maincarousel .carousel-inner .carousel-item {
+    transition: 1.5s all;
+}
+
+#ShowOfferscarousel .carousel-inner .carousel-item {
+    transition: 1s all;
+}
+
+
+/* Main Carousel  */
+
+#Maincarousel img{
+    min-height: 30em;
+}
+
+#Maincarousel img {
+    min-width: 100%;
+    width: 100%;
+    height: 50vmax;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    object-fit: cover;
+    object-position: center;
+    z-index: 10;
+}
+
+
+/* ----- Ofertas ----- */
+
+.ShowOffers .row {
+    margin: 2em 0em 0em 0em;
+}
+
+.ShowOffers .card {
+    width: 80%;
+}
+
+#carouselEx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselEx button {
+    margin: auto;
+    width: 10%;
+    height: 100px;
+    transition: 0.1s;
+}
+
+#carouselEx button span:active {
+    display: none;
+}
+
+
+/* ----- Ofertas dos Dia ----- */
+
+.cardoffers *:nth-child(1) {
+    margin: 0em 0em 0em 0em;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.card-offers *:nth-child(2) {
+    margin: 1em 0em 0em 0em;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 1.02rem;
+    letter-spacing: 0.15em;
+}
+
+.card-offers *:nth-child(2) {
+    margin: 1em 0em 0em 0em;
+    color: #ff0000;
+    font-size: 1.02rem;
+    letter-spacing: 0.15em;
+}
+
+.card-offers *:nth-child(3) {
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 20em;
+    color: #ffffff;
+    background-color: #ff0000;
+    font-size: 1.3rem;
+    transition: 0.1s all;
+    margin: 2em 0 0 0;
+    transition: 0.1s all;
+}
+
+.card-offers *:nth-child(3):hover {
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 20em;
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 1px solid red;
+    font-size: 1.3rem;
+    transition: 0.1s all;
+    margin: 2em 0 0 0;
+}
+
+.card-offers *:nth-child(3):hover {
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 20em;
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 1px solid red;
+    font-size: 1.3rem;
+    transition: 0.1s all;
+    margin: 2em 0 0 0;
+}
+
+.all-offers {
+    background-color: red;
+}
+
+.all-offers *:nth-child(1) {
+    margin: 3em 0.5em 0.5em 0.5em;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.all-offers *:nth-child(2) {
+    margin: 1em 0.5em 0.5em 0.5em;
+    font-size: 1.8rem;
+    background-color: red;
+}
+
+.all-offers *:nth-child(3) {
+    padding: 0.7em 3em 0.7em 3em;
+    margin: 2em 0.5em 0.5em 2em;
+    border-radius: 20em;
+    letter-spacing: 0.1em;
+}
+
+.all-offers *:nth-child(3):hover {
+    color: black;
+    background-color: white;
+    border: black;
+}
+
+
+/* --- Coca Zero --- */
+
+.ZeroCoke {
+    padding: 5em 2em 0em 2em;
+    background-color: black;
+}
+
+.ZeroCoke div *:nth-child(1) {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.ZeroCoke div *:nth-child(2) {
+    margin: 0.5em;
+    font-size: 2.5rem;
+}
+
+.ZeroCoke div *:nth-child(3) {
+    margin: 0.5em;
+    font-size: 1.5rem;
+}
+
+
+/* ----- Ofertas Regionais ----- */
+
+.RegionalOffers .row div:nth-child(1) *:nth-child(1) {
+    font-size: 1.2rem;
+    color: #ff0000;
+    margin: 3em 1em 1em 0.2em;
+    letter-spacing: 0.2em;
+}
+
+.RegionalOffers .row div:nth-child(1) *:nth-child(2) {
+    font-size: 3rem;
+    margin-bottom: 1.5em;
+}
+
+.RegionalOffers .row div:nth-child(1) *:nth-child(3) {
+    padding: 0.5em;
+    border-radius: 20em;
+    background-color: rgb(255, 0, 0);
+    font-size: 1.2rem;
+    transition: 0.1s all;
+    margin-bottom: 4em;
+}
+
+.RegionalOffers .row div:nth-child(1) *:nth-child(3):hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/* ----- Garrafa Virtual ----- */
+
+.VirtualBottle {
+    background-color: #efc241;
+}
+
+.VirtualBottle .row div:nth-child(1) *:nth-child(1) {
+    margin: 2em 0.5em 0.5em 0.5em;
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.VirtualBottle .row div:nth-child(1) *:nth-child(2) {
+    margin: 0em 0.5em 0.7em 0.5em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.VirtualBottle .row div:nth-child(1) *:nth-child(3) {
+    background-color: black;
+    width: 20em;
+    height: 3.5em;
+    margin: 1em 0.5em 5em 0.5em;
+    padding: 0.8em 2.2em 0.8em 2.2em;
+    font-size: 1rem;
+    border-radius: 20em;
+}
+
+.VirtualBottle .row div:nth-child(1) *:nth-child(3):hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* ----- Registro de Beneficios ----- */
+
+.BenefRegister .row div:nth-child(1) {
+    background-color: #db3634;
+    padding: 2em;
+}
+
+.BenefRegister .row div:nth-child(1) *:nth-child(1) {
+    color: white;
+    font-size: 3.2rem;
+    margin: 2.5em 0em 1.5em 0em;
+}
+
+.BenefRegister .row div:nth-child(1) *:nth-child(2) {
+    background-color: white;
+    border-radius: 20em;
+    padding: 0.5em 2em 0.5em 2em;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    padding: 2em;
+    background-color: #201e1f;
+}
+
+.footer-tittle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #cecece;
+    text-decoration: none;
+}
+
+.social-content a {
+    text-decoration: none;
+}
+
+.social-content a i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.2em;
+    padding: 0.2em;
+    color: #201e1f;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+.social-content a i:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/* Image Reponsive */
+.RegionalOffers img, #Maincarousel img, .BenefRegister img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 992px) {
+    .navbar {
+        color: black!important;
+        background-color: #ff0000!important;
+    }
+
+    .nav-link:focus {
+        color: rgb(255, 255, 255)!important;
+    }
+    .social-content {
+        justify-content: center;
+    }
+
+    .nav-item:nth-of-type(2) *:focus ,.nav-item:nth-of-type(3) *:focus {
+        color: #000000!important;
+    
+    } 
+}
+
+
+@media (max-width: 764px) {
+    .all-offers *:nth-child(3) {
+        margin: 2em auto;
+    }
+  
+    #BrandsCarousel img {
+        width: 25%;
+    }
+}
+
